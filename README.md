@@ -1,5 +1,5 @@
 Have a Super Meal 
-一款专注于帮助用户发现和选择美食的程序
+一款专注于帮助用户发现和选择美食的Android应用程序
 
 ![image](https://github.com/user-attachments/assets/4251c522-2f0b-4c76-ac8f-163dff000fc6)
 
