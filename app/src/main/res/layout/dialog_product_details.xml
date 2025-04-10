@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="320dp"
+    android:orientation="vertical"
+    android:background="#3DFFFFFF"
+    android:padding="16dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="12dp"
+        android:layout_centerHorizontal="true"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="15dp">
+
+        <ImageView
+            android:id="@+id/dialogProductImage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/border"
+            android:scaleType="centerCrop" />
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/dialogProductName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_below="@id/cardview"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/dialogProductAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_below="@id/dialogProductName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="71dp"
+        android:layout_height="71dp"
+        android:background="@drawable/round_button"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/onemore"
+        android:layout_below="@id/dialogProductAddress"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="8dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="71dp"
+        android:layout_height="71dp"
+        android:background="@drawable/round_button"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/ok"
+        android:layout_below="@id/dialogProductAddress"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp" />
+
+
+</RelativeLayout>

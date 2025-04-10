@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8F0"
+    tools:context=".Activity.MainActivity">
+
+    <TextView
+        android:id="@+id/logintext1"
+        android:layout_width="304dp"
+        android:layout_height="98dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50sp"
+        android:lineSpacingExtra="4sp"
+        android:text="@string/logintext1"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:translationY="-2.13sp" />
+
+    <View
+        android:id="@+id/undraw_on_the_way_ldaq"
+        android:layout_width="375dp"
+        android:layout_height="280dp"
+        android:layout_below="@id/logintext1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:background="@mipmap/food" />
+
+    <EditText
+        android:id="@+id/editTextTextUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/undraw_on_the_way_ldaq"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Username or Email"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/editTextTextUsername"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6sp"
+        android:ems="10"
+        android:hint="Password"
+        android:layout_alignLeft="@id/editTextTextUsername"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_login"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTextPassword"
+        android:layout_marginLeft="88sp"
+        android:layout_marginTop="16sp"
+        android:backgroundTint="#FFE596"
+        android:text="LOGIN IN" />
+    <Button
+        android:id="@+id/btn_register"
+        style="@style/Widget.Material3.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/btn_login"
+        android:layout_toRightOf="@id/btn_login"
+        android:layout_marginLeft="20sp"
+        android:backgroundTint="#FFE596"
+        android:text="REGISTER" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16sp"
+        android:textColor="@color/gray"
+        android:text="Forget your password?" />
+
+
+</RelativeLayout>

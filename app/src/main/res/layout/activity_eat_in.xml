@@ -1,0 +1,25 @@
+<!-- activity_eat_in.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/eatInTabLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar1"/>
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/eatInTabLayout"/>
+
+
+</RelativeLayout>

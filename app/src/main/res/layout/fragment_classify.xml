@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/view_center"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"/>
+
+    <ImageButton
+        android:id="@+id/take_out"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/round_button"
+        android:scaleType="centerCrop"
+        android:layout_alignBottom="@+id/view_center"
+        android:layout_alignRight="@+id/view_center"
+        android:layout_marginRight="20dp"
+        app:srcCompat="@drawable/take_out" />
+
+    <ImageButton
+        android:id="@+id/eat_in"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/round_button"
+        android:layout_alignBottom="@+id/view_center"
+        android:layout_alignLeft="@+id/view_center"
+        android:layout_marginLeft="20dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/eat_in" />
+</RelativeLayout>

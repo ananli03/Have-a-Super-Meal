@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/editTextProductname"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Username" />
+
+
+
+    <Button
+        android:id="@+id/btnAddUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextProductname"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="20dp"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/btnAddUser"
+        android:layout_alignBottom="@id/btnAddUser"
+        android:text="Cancel" />
+</RelativeLayout>

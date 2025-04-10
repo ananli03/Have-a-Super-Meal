@@ -1,0 +1,210 @@
+<!-- item_product1.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="?android:attr/selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/relativeLayoutProduct0"
+
+        android:background="@drawable/border">
+
+        <ImageView
+            android:id="@+id/imageViewProduct0"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_marginEnd="16dp"
+            android:scaleType="centerCrop"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/border" />
+
+
+            <TextView
+                android:id="@+id/textViewProductName0"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:textSize="16sp"
+                android:layout_marginTop="10sp"
+                android:layout_toRightOf="@id/imageViewProduct0"
+                android:textStyle="bold"
+                android:text="111111"/>
+
+            <TextView
+                android:id="@+id/textViewProductAddress0"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:textSize="16sp"
+                android:layout_below="@id/textViewProductName0"
+                android:layout_alignLeft="@id/textViewProductName0"
+                android:text="222222"
+                android:textColor="@color/black" />
+
+        <ImageButton
+            android:id="@+id/product_checked0"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@+id/imageViewProduct0"
+            android:layout_marginLeft="130dp"
+            android:background="@drawable/round_button"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/unchecked" />
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginBottom="5sp"
+        android:id="@+id/relativeLayoutProduct1"
+        android:visibility="gone"
+        android:background="@drawable/border">
+        <ImageView
+            android:id="@+id/imageViewProduct1"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_marginEnd="16dp"
+            android:scaleType="centerCrop"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/border"/>
+
+
+        <TextView
+            android:id="@+id/textViewProductName1"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textSize="16sp"
+            android:layout_marginTop="10sp"
+            android:layout_toRightOf="@id/imageViewProduct1"
+            android:textStyle="bold"
+            android:text="111111"/>
+
+        <TextView
+            android:id="@+id/textViewProductAddress1"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textSize="16sp"
+            android:layout_below="@id/textViewProductName1"
+            android:layout_alignLeft="@id/textViewProductName1"
+            android:text="222222"
+            android:textColor="@color/black"/>
+        <ImageButton
+            android:id="@+id/product_checked1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/round_button"
+            android:scaleType="centerCrop"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imageViewProduct1"
+            android:layout_marginLeft="130dp"
+            app:srcCompat="@drawable/checked" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginBottom="5sp"
+        android:id="@+id/relativeLayoutProduct2"
+        android:visibility="gone"
+        android:background="@drawable/border">
+        <ImageView
+            android:id="@+id/imageViewProduct2"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_marginEnd="16dp"
+            android:scaleType="centerCrop"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/border"/>
+
+
+        <TextView
+            android:id="@+id/textViewProductName2"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textSize="16sp"
+            android:layout_marginTop="10sp"
+            android:layout_toRightOf="@id/imageViewProduct2"
+            android:textStyle="bold"
+            android:text="111111"/>
+
+        <TextView
+            android:id="@+id/textViewProductAddress2"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textSize="16sp"
+            android:layout_below="@id/textViewProductName2"
+            android:layout_alignLeft="@id/textViewProductName2"
+            android:text="222222"
+            android:textColor="@color/black"/>
+        <ImageButton
+            android:id="@+id/product_checked2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/round_button"
+            android:scaleType="centerCrop"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imageViewProduct2"
+            android:layout_marginLeft="130dp"
+            app:srcCompat="@drawable/unchecked" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/relativeLayoutProduct3"
+        android:visibility="gone"
+        android:background="@drawable/border">
+        <ImageView
+            android:id="@+id/imageViewProduct3"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:layout_marginEnd="16dp"
+            android:scaleType="centerCrop"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/border"/>
+
+
+        <TextView
+            android:id="@+id/textViewProductName3"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textSize="16sp"
+            android:layout_marginTop="10sp"
+            android:layout_toRightOf="@id/imageViewProduct3"
+            android:textStyle="bold"
+            android:text="111111"/>
+
+        <ImageButton
+            android:id="@+id/product_checked3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/round_button"
+            android:scaleType="centerCrop"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/imageViewProduct3"
+            android:layout_marginLeft="130dp"
+            app:srcCompat="@drawable/unchecked" />
+
+        <TextView
+            android:id="@+id/textViewProductAddress3"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textSize="16sp"
+            android:layout_below="@id/textViewProductName3"
+            android:layout_alignLeft="@id/textViewProductName3"
+            android:text="222222"
+            android:textColor="@color/black" />
+
+    </RelativeLayout>
+</LinearLayout>
